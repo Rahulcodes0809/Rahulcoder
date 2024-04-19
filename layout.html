@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>AI MANAGEMENT SYS </title>
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body background="back.jpeg.avif">
+  <div class="container">
+    <div class="title">Registration Of Goods</div>
+    <div class="content">
+      <form method="post"action="connectgood.php">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Name of the Goods</span>
+            <input type="text" name="Enter Goods Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Quantity</span>
+            <input type="text" name="Enter the Goods Quantity" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Check in</span>
+            <input type="text" name="Enter Goods in time" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Check out</span>
+            <input type="text" name="Enter Goods out time" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Requirement</span>
+            <input type="text" name="Enter Goods Requirements" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Expiry</span>
+            <input type="text" name="Enter Goods Expiry date" required>
+          </div>
+        </div>
+        <div class="Type-details">
+          <input type="radio" name="Type" id="dot-1" value="e">
+          <input type="radio" name="Type" id="dot-2" value="f">
+          <input type="radio" name="Type" id="dot-3" value="c">
+          <input type="radio" name="Type" id="dot-4" value="h">
+          <span class="Type-title">Type</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="Type">Electric device</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="Type">Food</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="Type">Clothing</span>
+            </label>
+            <label for="dot-4">
+              <span class="dot four"></span>
+              <span class="Type">Home Decor</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" name="Complete Entry" value="Complete Entry">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
